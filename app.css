@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+
+}
+
+html,body{ 
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    background-color: red;
+    height: 3rem;
+}
+
+.container-body{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    border: 1px solid yellow;
+}
+.container-main{
+    display: flex;
+    flex-flow: row;
+    height: 100%;
+    border: 1px solid rgb(39, 218, 3);
+}
+#index{
+    background-color: blue;
+    width: 4rem;
+    height: 100%;
+}
+main{
+    height: 100%;
+    background-color: aquamarine;
+    flex: 1;
+}
+
+#articulo{
+    margin-top: 2rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+}
+article{
+    border: 1px solid red;
+    width: 10rem;
+    height: 15rem;
+    margin: 1rem;
+}
+
+
+
+#shop{
+    background-color: brown;
+    height: 100%;
+    flex: 0.4;
+}
+#shop h3{
+    margin: 0;
+}
+footer{
+    background-color: rgb(18, 235, 47);
+    position: fixed;
+    bottom: 0;
+    height: 3rem;
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* <#index{ 
+    width: 115px;
+     height: 1000px;
+    float: left;
+    padding: 20px 0px;
+    background-color: rgb(230, 231, 144);
+}
+#articulo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+}
+article{
+   
+   border: 1px solid red;
+   width: 10rem;
+   height: 14rem;
+   margin: 0.6rem;
+}
+.shop,h3{
+    width: 30rem;
+    height: 1000px;
+   padding: 20px 0px;
+   background-color: rgb(58, 211, 211);
+   position: fixed;
+   right: 0;
+   top: 3.1rem;
+   
+}
+footer{
+    width: rem;
+    height: rem;
+   padding: 20px 0px;
+   background-color: rgb(175, 211, 58);
+   top: 50rem;
+   
+   position: absolute;
+   
+ }*/ 
